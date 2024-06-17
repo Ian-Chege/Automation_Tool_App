@@ -1,5 +1,45 @@
-/dist
-/coverage
-pnpm-lock.yaml
+# Ignore artifacts:
+build
+coverage
 node_modules
+.next
+
+# Ignore all JSON files
+*.json
+
+# Ignore build output
+out
+
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore configuration files
+.next.config.mjs
+next-env.d.ts
+
+# Ignore public files
+public/*
+
+# Ignore other potential files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs
+*.log
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 README.md
